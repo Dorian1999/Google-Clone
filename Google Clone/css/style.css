@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0px;
+    line-height: 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 7px;
+    vertical-align: middle;
+}
+
+nav,
+footer {
+    padding: 4px 20px;
+}
+
+/* ------- Top Nav ------- */
+nav img {
+    list-style: none;
+    color: rgb(0 0 0);
+    opacity: 0.85;
+    width: 20px;
+}
+
+/* ------- Right Nav Items ------- */
+.nav-bar {
+    float: right;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 8px;
+    margin-top: 13px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.nav-bar li a:hover {
+    text-decoration: underline;
+}
+
+.btn a {
+    background: rgb(64 134 244);
+    color: #ffffff !important;
+    margin-top: 5px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none !important;
+}
+
+.btn:hover a {
+    background: #3cb0fd;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 140px;
+}
+
+.search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 40%;
+    border-radius: 25px;
+    padding: 15px 0px 15px 40px;
+    border: 1px solid;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 15px;
+    min-width: 50px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.icon2 {
+    padding: 15px;
+    min-width: 50px;
+    text-align: center;
+    margin-left: 890px;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+    margin-top: 40px;
+}
+
+.btnLeft {
+    float: left;
+    background-color: rgb(217 217 217);
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(112 112 112);
+}
+
+.btnLeft:hover {
+    background-color: white;
+}
+
+.btnRight {
+    float: right;
+    background-color: rgb(217 217 217);
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(112 112 112);
+}
+
+.btnRight:hover {
+    background-color: white;
+
+}
